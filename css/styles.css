@@ -10,7 +10,7 @@ body{
 	background-color: #f4f4f4;
 	width: auto;
 	min-height: 400px;
-	background:url('../img/showcase.jpg') no-repeat 0 -50px;
+	background:url('../img/showcase.jpg') no-repeat 0 0px;
 	text-align: center;
 	margin: 0 auto;
 	color: #ffffff;
@@ -23,6 +23,7 @@ body{
 	width:80%;
 	margin: auto;
 	overflow: hidden;
+	
 }
 
 ul{
@@ -58,6 +59,7 @@ header {
 	color: #ffffff;
 	padding-top: 15px;
 	min-height: 50px;
+	margin-bottom: 1em;
 
 }
 
@@ -82,10 +84,7 @@ header .branding h1{
 	margin: 0;
 	float: left;
 	font-weight: normal;
-
-
 }
-
 
 header nav{
 	float: right;
@@ -117,7 +116,7 @@ header a:hover{
 */
 
 .showcase.container h1 {
-	margin-top: 300px;
+	margin-top: 200px;
 	font-size: 55px;
 	margin-bottom: 10px;
 }
@@ -150,8 +149,15 @@ header a:hover{
 aside.sidebar{
 	float: right;
 	width: 30%;
-	margin-top: 10px;
+	margin-top: 0;
+	border-radius: 5px;
 }
+
+.dark{
+	border-radius: 5px;
+}
+
+
 
 aside.sidebar .quote input, aside.sidebar .quote textarea{
 	width: 90%;
@@ -165,8 +171,13 @@ article.main-col{
 	background-color: rgba(255,255,255,.4);
 }
 
+
+
+
 /*Services*/
+
 ul.services li {
+
 list-style: none;
 padding: 20px;
 border: #cccccc solid 1px;
@@ -174,16 +185,20 @@ margin-bottom: 5px;
 background: #e6e6e6;
 }
 
+
+
 .quote button {
 	width: 100%;
 }
 
+
 /*Newsletter*/
 
 .newsletter{
-	padding: 15px;
+	padding: 0px;
 	color: #ffffff;
 	background: #35424a;
+	margin-top: 1em;
 }
 
 .newsletter h1{
@@ -208,7 +223,7 @@ background: #e6e6e6;
 
 footer {
 	padding: 5px;
-	margin:0;
+
 	color: #ffffff;
 	background-color: #ccc;
 	text-align: left;
