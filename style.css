@@ -26,22 +26,27 @@ body{
   text-align: center;
 }
 header{
-  
-  
- 
 
 }
 .header__title{
+  color: #fff;
+  font-size: 2rem;
+}
 
+button {
+  
+  background-color: none;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
 }
 
 a {
-  color: #ccc;
+  color: black;
   list-style: none;
   text-decoration: none;
 }
 a:hover{
-  color: #BE7F7A;
+  color: #ccc;
 }
 
 nav {
@@ -49,7 +54,7 @@ nav {
   /* border-bottom: 1px solid rgba(222,222,222,.7); */
   /* display: flex;
   justify-content: space-evenly; */
-  font-size: .5rem;
+  font-size: .7rem;
   margin-bottom: 1rem;
   padding: 1rem 0;
   position: fixed;
@@ -63,17 +68,44 @@ nav {
 
 .container {
   /* border-bottom: .5px solid rgba(222,222,222,10); */
+  display: flex;
+  justify-content: center;
   min-height: 20vh;
+  padding-top: 1rem;
 }
 
-/* GRADIENT PRACTICE */
+/* GRADIENT PRACTICE :  think Pink Floyd's 'Meddle Cover'*/ 
 
 /* .gradient__header {
   background-image: linear-gradient(-180deg, rgba(164,12,148,.4),rgba(32,22,79,.8));
  
 } */
 .gradient__one {
-  background-image: linear-gradient(-180deg, rgba(32,22,79,.6), rgba(164,12,148,.4));
+  background-image: linear-gradient(-180deg, rgba(32,22,79,.5), rgba(164,12,148,.4));
 }
 .gradient__two {
-  background-image: linear-gradient(-180deg, rgba(164,12,148,.4),rgba(164,12,148,.1));
+  background-image: linear-gradient(-180deg, rgba(164,12,148,.4),rgba(164,12,148,.2));
+
+}
+.gradient__three {
+    background-image: linear-gradient(-180deg, rgba(164,12,148,.2),rgba(164,12,148,.1));
+}
+.gradient__four {
+  background-image: linear-gradient(-180deg,rgba(164,12,148,.1),rgba(164,12,148,.1));
+}
+.gradient__five {
+  background-image: linear-gradient(-180deg,rgba(164,12,148,.1),rgba(164,12,148,.1));
+}
+.gradient__six {
+  background-image: linear-gradient(-180deg,rgba(164,12,148,.1),rgba(164,12,148,.1));
+}.gradient__seven {
+  background-image: linear-gradient(-180deg,rgba(164,12,148,.1),rgba(147,196,226,.4));
+}
+
+.container__footer {
+  align-items: flex-end;
+  color: rgba(147,196,226,.9);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem; 
+}
